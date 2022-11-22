@@ -1,0 +1,134 @@
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+html,body {
+    width: 100%;
+    height:100% ;
+}
+
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 1200px;
+
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menu {
+    background-color: rgb(80, 63, 97);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.logo {
+    background-color: rgb(225, 50, 50);
+    flex: 1 1 auto;
+}
+
+.nav {
+    background-color: rgb(225, 50, 50);
+    flex: 5 1 auto;
+}
+
+.social {
+    background-color: rgb(225, 50, 50);
+    flex: 1 1 auto;
+
+}
+
+.texto-principal {
+    background-color: rgb(227, 103, 57);
+}
+
+h1 {
+    background-color: rgba(237, 218, 13, 0.94);
+}
+
+.section {
+    background-color: black;
+    display: flex;
+}
+
+.articulos {
+    background-color: rgba(100, 9, 192, 0.748);
+    flex: 2 1 auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.article {
+    background-color: rgb(19, 19, 212);
+    flex: 1 1 40%;
+}
+
+.texto{
+    background-color: rgb(126, 126, 204);
+    flex: 1 1 100%;
+}
+
+.aside {
+    background-color: red;
+    flex: 1 1 auto;
+}
+
+.publicidad {
+    background-color: yellow;
+}
+
+.footer {
+    background-color: black;
+}
+
+.pie {
+    background-color: rgb(220, 166, 65);
+}
+
+
+    
+
+@media all and (max-width: 991.98px){
+    .section {
+        flex-direction: column;
+        background-color: yellow;
+    }
+
+}
+
+@media all and  (max-width: 575.98px){
+    .section {
+        flex-direction: column;
+        background-color: yellow;
+    }
+
+    .menu {
+        flex-direction:column;
+        flex-flow: row wrap;
+       
+    }
+
+    .logo {
+        flex: 1 1 100%;
+        
+    }
+    .nav {
+        flex: 1 1 100%;
+    }
+    .social{
+        flex: 1 1 100%;
+    }
+    .articulos {
+        flex-direction: column;
+    }
+}
+
+
