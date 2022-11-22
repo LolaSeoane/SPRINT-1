@@ -7,7 +7,7 @@
 
 html,
 body {
-    width: 100%;
+    /*width: 100%; quito el scroll*/
     height: 100%;
 }
 
